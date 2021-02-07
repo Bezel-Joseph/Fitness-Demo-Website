@@ -11,6 +11,7 @@
   width: 100%;
   min-height:90vh;
   background: url(images/bgg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -87,6 +88,20 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
+  
+  #home {
+  position: absolute;
+  width: 100%;
+  min-height:90vh;
+  background: url(images/bgg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+  
     .logo {
   color: #feffff;
   height: 30px;
