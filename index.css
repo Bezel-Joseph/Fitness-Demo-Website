@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 #home {
-  position: relative;
+  position: absolute;
   width: 100%;
   min-height:90vh;
   background: url(images/bgg.jpg);
