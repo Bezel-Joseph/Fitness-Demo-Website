@@ -535,7 +535,7 @@ nav ul li a:hover {
 }
 #package .container {
   max-width: 1100px;
-  height: 760px;
+  height: 700px;
   margin: auto;
 
   display: flex;
