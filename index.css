@@ -90,7 +90,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   
   #home {
-  position: absolute;
+  position: relative;
   width: 100%;
   min-height:90vh;
   background: url(images/bgg.jpg);
