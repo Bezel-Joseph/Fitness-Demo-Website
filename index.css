@@ -87,7 +87,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   
   #home {
   position: relative;
