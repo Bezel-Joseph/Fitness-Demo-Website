@@ -11,9 +11,9 @@
   width: 100%;
   min-height:90vh;
   background: url(images/bgg.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+    background-repeat: no-repeat;
   display: flex;
   align-items: center;
   padding: 100px;
@@ -23,7 +23,7 @@ header {
   position: relative;
     height: 64px;
   max-width: 1550px;
-
+ 
   background: #000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -88,20 +88,18 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  
-  #home {
+    #home {
   position: relative;
   width: 100%;
   min-height:90vh;
   background: url(images/bgg.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+    background-repeat: no-repeat;
   display: flex;
   align-items: center;
   padding: 100px;
 }
-  
     .logo {
   color: #feffff;
   height: 30px;
@@ -137,6 +135,7 @@ nav ul li a:hover {
   }
   nav {
     display: none;
+      
   }
   nav.active {
     display: block;
@@ -145,11 +144,13 @@ nav ul li a:hover {
   nav.active ul {
     display: block;
     text-align: center;
+      
   }
   nav.active ul li {
     margin: 0;
+     
   }
-  nav ul li a {
+    nav ul li a {
   display: block;
   margin: 10px 0;
   padding: 10px 20px;
@@ -158,6 +159,7 @@ nav ul li a:hover {
   color: #000;
   font-weight: bold;
 }
+    
 }
 
 .content {
@@ -185,7 +187,7 @@ nav ul li a:hover {
 }
 .social {
   position: absolute;
-  bottom: 90px;
+  bottom: 30px;
   display: flex;
 }
 .social li {
@@ -205,7 +207,133 @@ nav ul li a:hover {
   margin-right: 27px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
+     .logo {
+  color: #feffff;
+  height: 30px;
+   margin-left: 22px;
+  font-size: 36px;
+  line-height: 60px;
+  padding: 0 20px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  font-weight: 700;
+  text-decoration: none;
+}
+  #home {
+    padding: 40px;
+    background-position: center;
+  }
+
+ .content {
+  max-width: 600px;
+}
+.content .contentBx h2 {
+  font-size: 3.5em;
+  color: rgb(255, 255, 255);
+  line-height: 1em;
+}
+.content .contentBx p {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 300;
+  margin: 40px 0;
+}
+.content .contentBx a {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #03a9f4;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.social {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+}
+.social li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li a {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+}
+.social .soci {
+  margin-right: 27px;
+}
+
+    .menu-toggle {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+  }
+  .menu-toggle::before {
+    content: "\f0c9";
+    font-family: fontAwesome;
+    line-height: 40px;
+  }
+  .menu-toggle.active::before {
+    content: "\f00d";
+  }
+  nav {
+    display: none;
+      
+  }
+  nav.active {
+    display: block;
+    width: 100%;
+  }
+  nav.active ul {
+    display: block;
+    text-align: center;
+      
+  }
+  nav.active ul li {
+    margin: 0;
+     
+  }
+    nav ul li a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+
+}
+
+@media (max-width: 650px) {
+     .logo {
+  color: #feffff;
+  height: 30px;
+   margin-left: 22px;
+  font-size: 36px;
+  line-height: 60px;
+  padding: 0 20px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  font-weight: 700;
+  text-decoration: none;
+}
   #home {
     padding: 40px;
     background-position: center;
@@ -220,7 +348,58 @@ nav ul li a:hover {
   .social {
     bottom: 30px;
   }
+    .menu-toggle {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+  }
+  .menu-toggle::before {
+    content: "\f0c9";
+    font-family: fontAwesome;
+    line-height: 40px;
+  }
+  .menu-toggle.active::before {
+    content: "\f00d";
+  }
+  nav {
+    display: none;
+      
+  }
+  nav.active {
+    display: block;
+    width: 100%;
+  }
+  nav.active ul {
+    display: block;
+    text-align: center;
+      
+  }
+  nav.active ul li {
+    margin: 0;
+     
+  }
+    nav ul li a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
 }
+
+}
+
+
+
+
 
 * {
   margin: 0;
